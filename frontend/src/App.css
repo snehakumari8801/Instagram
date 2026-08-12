@@ -214,6 +214,13 @@
   justify-content: flex-end;
 }
 
+.message-content p {
+  margin: 0;
+  white-space: nowrap;      
+  padding-right: 10px ;
+  
+}
+
 .message-content {
   max-width: 70%;
   padding: 8px 16px;
@@ -233,14 +240,14 @@
   border-bottom-right-radius: 0;
 }
 
-.message-time {
+/* .message-time {
   font-size: 10px;
   margin-top: 4px;
   display: flex;
   align-items: center;
   justify-content: flex-end;
   opacity: 0.8;
-}
+} */
 
 .message.sent .message-time {
   color: rgba(255, 255, 255, 0.7);

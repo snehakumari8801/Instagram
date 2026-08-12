@@ -450,7 +450,7 @@ function ChatApp() {
                                 />
                               )}
                               <span className="message-time">
-                                {message.time}
+                                {/* {message.time} */}
                               </span>
                             </div>
                           </div>
